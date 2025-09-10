@@ -1,0 +1,21 @@
+/* RightWin QR Portal — minimal styling */
+.rwqr-card{
+  background:#fff; border-radius:16px; padding:16px;
+  box-shadow:0 8px 24px rgba(0,0,0,.08); max-width:960px; margin:0 auto;
+}
+.rwqr-grid{ display:grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap:14px; }
+.rwqr-fieldset{ grid-column: 1 / -1; background:#fafafa; border:1px solid #eee; border-radius:12px; padding:12px; }
+.rwqr-btn{ background:#111;color:#fff;padding:10px 16px;border:0;border-radius:8px;cursor:pointer }
+.rwqr-btn:hover{ filter:brightness(.96) }
+
+.rwqr-table{ width:100%; border-collapse:collapse; }
+.rwqr-table th, .rwqr-table td{ border-bottom:1px solid #eee; padding:8px; text-align:left; }
+.rwqr-actions .button{ margin-right:6px; }
+.button-danger{ background:#b91c1c !important; color:#fff !important; border-color:#b91c1c !important; }
+
+.rwqr-badge-paused{
+  display:inline-block; padding:2px 8px; font-size:12px; border-radius:999px;
+  background:#fee2e2; color:#991b1b; border:1px solid #fecaca;
+}
+.rwqr-err{ background:#fee2e2;color:#7f1d1d;border:1px solid #fecaca;padding:10px;border-radius:8px;margin:10px 0 }
+.rwqr-ok{ background:#dcfce7;color:#14532d;border:1px solid #bbf7d0;padding:10px;border-radius:8px;margin:10px 0 }
